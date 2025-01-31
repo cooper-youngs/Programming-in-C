@@ -11,6 +11,10 @@ Integers seedVal, minVal and maxVal are read from input. srand() is called
  between minVal and maxVal, both inclusive.
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+
+
 int main(void) {
    int seedVal;
 	int minVal;
@@ -20,11 +24,11 @@ int main(void) {
 	int lottery3;
 	int lottery4;
 
-   scanf("%d", &seedVal);
-	scanf("%d", &minVal);
+    scanf("%d", &seedVal);
+    scanf("%d", &minVal);
 	scanf("%d", &maxVal);
 
-   srand(seedVal);
+    srand(seedVal);
 
 //since we're just given variables, we know that to generate a range
 //A to B we first need to find the amount of numbers in that range
