@@ -17,6 +17,7 @@ Amount: $1.25*/
 
 int main() {
 
+//need to initialize these as double so that they dont try to convert the calculations back to int when multiplying.
    double nickels;
    double dimes;
    double quarters;
