@@ -19,6 +19,7 @@ if the strings are equal, and some non-zero value otherwise. The programmer must
  strcmp(str1, str2) > 0 str1 is greater than str2
 */
 
+#include <stdio.h>
 #include <string.h>
 
 int main(void) {
